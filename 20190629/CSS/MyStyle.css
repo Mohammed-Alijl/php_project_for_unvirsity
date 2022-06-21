@@ -1,0 +1,351 @@
+/* Start Global section */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Tahoma;
+}
+.container{
+    margin: auto;
+    width: 90%;
+}
+.disabled {
+    display: none;
+    transition: all 0.5s ease;
+}
+.Navbar{
+    font-family: 'Comic Sans MS';
+    background-color: #00BAFF;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.title{
+    font-size: 50px;
+    padding: 10px 0;
+    font-family: "Trebuchet MS";   
+}
+
+h3{
+    display: inline-block;
+    font-size: 24px;
+    padding: 70px 0 15px;
+    font-family: "Arial Rounded MT";
+}
+
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.list li{
+    display: inline-block;
+    margin: 20px;
+}
+.list li a{
+    text-decoration: none;
+}
+
+ul .active a{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+ul .not_active a {
+    color: #000000;
+    font-weight: bold;
+}
+
+.Navbar img{
+    position: absolute;
+    width: 60px;
+    height: 100%;
+    right: 5px;
+}
+
+.btn {
+    width: 210px;
+    color: #fff;
+    background-color: #dc3545;
+    border-radius: 10px;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.btn-green {
+    background-color: #198754;
+}
+
+.error{
+    color: #ff0000;
+    font-size: 13px;
+}
+/* End Global section */
+
+
+
+
+
+/* start personal information section */
+.parent span{
+    margin-right: 150px;
+}
+
+.basic{
+    display: inline-block;
+    width: 140px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.parent img{
+    position: absolute;
+    right: 400px;
+    top: 25%;
+    width: 300px;
+    height: 300px;
+}
+/* End personal information section */
+
+
+
+
+
+/* Strat table section */
+thead{
+    background-color: #606060;
+}
+
+table{
+    border: 3px solid black;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+th{
+    border: 1px solid black;
+    padding: 10px 25px;
+    
+}
+
+td{
+    border: 1px solid black;
+    height: 80px;
+    background-color: #ffffff;
+}
+
+.id{
+    text-align: center;
+    font-weight: bold;
+    width: 50px;
+}
+
+.toCenter{
+    text-align: center;
+}
+
+.notes{
+    width: 300px;
+}
+
+.toCenterSmall{
+    text-align: center;
+    width: 150px;
+}
+
+.colorful_row td{
+    background-color: #E5E5E5;
+}
+/* End table section */
+
+
+
+
+
+/* Start view experience section */
+section .date{
+    font-size: 15px;
+    padding: 20px 0 30px;
+    display: inline-block;
+    font-weight: 600;
+    
+}
+section .training{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+section  .describtion{
+    padding-bottom: 10px;
+}
+/* End view experience section */
+
+
+
+
+
+/* start Add Course section */
+
+.Add-Course .content {
+    padding: 20px 38px;
+    display: flex;
+    gap: 85px;
+}
+
+.Add-Course .content .group {
+    padding: 20px 0;
+}
+
+.Add-Course .content .group:nth-child(9) {
+    display: flex;
+    gap: 100px;
+}
+
+.Add-Course .content .group>input {
+    margin-left: 43px;
+    width: 233px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.Add-Course .content .group>label {
+    font-family: "Tahoma";
+    font-size: 14px;
+}
+
+.Add-Course .content .group>input[type=radio] {
+    margin-left: 60px;
+    width: auto;
+    height: auto;
+    border-radius: auto;
+    border: auto;
+    padding: auto;
+}
+
+.Add-Course .content .group-btn {
+    display: flex;
+    gap: 100px;
+    margin-left: 35px;
+    padding: 35px 0;
+}
+
+
+/* End Add Course section */
+
+
+
+
+
+/* Start Add Experience section */
+
+.Add-Experience .content {
+    padding: 38px;
+    display: flex;
+    gap: 225px;
+}
+
+.Add-Experience .content .group {
+    padding: 20px 0;
+}
+
+select {
+    margin-left: 12px;
+    width: 233px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    background-position: calc(100% - 12px) center !important;
+    background: url("data:image/svg+xml,<svg height='30px' width='20px' viewBox='0 0 16 16' fill='%23000000' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>") no-repeat;
+    cursor: pointer;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.Add-Experience .content .group:nth-child(6) {
+    display: flex;
+    gap: 100px;
+}
+
+.Add-Experience .content .group>input {
+    margin-left: 43px;
+    width: 233px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.Add-Experience .content .group>label {
+    font-family: "Tahoma";
+    font-size: 14px;
+}
+
+.Add-Experience .content .group-btn {
+    display: flex;
+    gap: 100px;
+    margin-left: 35px;
+    padding: 35px 0;
+}
+
+
+/* End Add Experience section */
+
+
+
+
+
+/* Start course_view Section */
+
+.page-header {
+    font-size: 42px;
+    font-family: monospace;
+    padding: 40px 0 10px 0;
+}
+
+.course_view p:nth-child(2) {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.course_view p:nth-child(4) {
+    font-size: 18px;
+    padding: 15px 0 50px 0;
+}
+
+.decode_image {
+    width: 97.8%;
+    margin: auto;
+    float: right;
+    box-shadow: 5px 6px 4px 0px grey;
+}
+.course_view .container > a{
+    color: #fff;
+    background-color: #dc3545;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* End course_view Section */
